@@ -27,12 +27,34 @@ export default function SpeakingMediaPage() {
   return (
     <section className="mx-auto max-w-7xl px-5 py-16 lg:px-8">
       <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr]">
-        <EditorialHeading
-          eyebrow="Speaking & Media"
-          title="For organizations ready to rethink the divide between physical and mental health."
-          body="Dr. Lidstone's public profile is strongest where specialist rigor needs to meet human clarity: medical audiences, interdisciplinary teams, leaders, and the public."
-          level="h1"
-        />
+        <div>
+          <EditorialHeading
+            eyebrow="Speaking & Media"
+            title="For organizations ready to rethink the divide between physical and mental health."
+            level="h1"
+          />
+          <div className="mt-5 max-w-3xl text-lg leading-8 text-charcoal/75">
+            <p>
+              Dr. Sarah Lidstone is a compelling speaker for organizations looking
+              to make complex ideas about the brain, health, resilience, and human
+              performance genuinely useful.
+            </p>
+            <p className="mt-5">
+              Drawing on deep clinical and academic expertise, she translates
+              rigorous neuroscience into clear, practical insight for medical
+              audiences, interdisciplinary teams, leaders, and the public. Her talks
+              connect the mind and body without oversimplifying either; helping
+              audiences better understand how neurological health, stress,
+              behaviour, relationships, and systems of care shape real outcomes.
+            </p>
+            <p className="mt-5">
+              Whether speaking to healthcare professionals, corporate leaders, or
+              community audiences, Dr. Lidstone brings specialist credibility,
+              compassion, and a rare ability to make people feel both informed and
+              seen.
+            </p>
+          </div>
+        </div>
         <BlushPanel className="self-start">
           <SectionLabel>Media Assets</SectionLabel>
           <div className="grid gap-4">

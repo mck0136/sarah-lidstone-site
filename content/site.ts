@@ -3,7 +3,7 @@ export const siteConfig = {
   title: "Dr. Sarah Lidstone | Neurologist, Researcher, Speaker",
   description:
     "A personal-professional website for Dr. Sarah Lidstone, a Toronto neurologist, neuroscientist, researcher, and speaker focused on whole-person neurology, rehabilitation, and integrated care.",
-  url: "https://www.sarahlidstone.com"
+  url: "https://drsarahlidstone.com"
 };
 
 export const contactEmail = "Sarah.Lidstone@gmail.com";

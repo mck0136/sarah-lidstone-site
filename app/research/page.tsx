@@ -42,10 +42,12 @@ export default function ResearchPage() {
         </div>
         <div className="md:col-span-2">
           <p className="leading-8 text-charcoal/76">
-            The research story is not limited to a single diagnosis. It connects
-            movement disorders, functional neurological symptoms, rehabilitation,
-            mental health-informed care, expectation, and the practical design of
-            clinical services.
+            Sarah’s research examines how neurological symptoms and recovery are
+            shaped by more than a diagnosis alone. It brings together movement
+            disorders, functional neurological symptoms, rehabilitation, mental
+            health-informed care, expectation, and the practical design of clinical
+            services; supporting more integrated, effective care for people living
+            with complex conditions.
           </p>
           <div className="mt-5 flex flex-wrap gap-3">
             <ButtonLink

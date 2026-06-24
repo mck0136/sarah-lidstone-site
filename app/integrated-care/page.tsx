@@ -42,7 +42,7 @@ export default function IntegratedCarePage() {
       <EditorialHeading
         eyebrow="Integrated Care"
         title="Brain. Mind. Body."
-        body="An accessible, medically cautious guide to the care philosophy that anchors this website."
+        body="A clear, evidence-based approach to neurological care that considers the full person—not just the diagnosis."
         level="h1"
       />
 

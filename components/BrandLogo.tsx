@@ -10,9 +10,9 @@ type BrandLogoProps = {
 
 const variantClasses = {
   header: {
-    wrapper: "w-[7.75rem] sm:w-[8.75rem]",
-    mark: "h-11 w-[3.1rem] sm:h-12 sm:w-[3.4rem]",
-    text: "mt-2 text-[0.39rem] tracking-[0.38em] sm:text-[0.42rem]"
+    wrapper: "w-[6.75rem] sm:w-[8.75rem]",
+    mark: "h-9 w-[2.55rem] sm:h-12 sm:w-[3.4rem]",
+    text: "mt-1.5 text-[0.34rem] tracking-[0.34em] sm:mt-2 sm:text-[0.42rem]"
   },
   hero: {
     wrapper: "w-[10.5rem] sm:w-[11.5rem]",
