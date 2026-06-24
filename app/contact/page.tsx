@@ -17,9 +17,20 @@ export default function ContactPage() {
         <EditorialHeading
           eyebrow="Contact"
           title="Professional inquiries only."
-          body={`Use this page for speaking, media, research collaboration, and professional inquiries. Validated inquiries open an email draft to ${contactEmail}. Do not send symptoms, health history, or urgent medical details.`}
           level="h1"
         />
+        <div className="mt-5 max-w-3xl text-lg leading-8 text-charcoal/75">
+          <p>
+            Please use this form for speaking engagements, media requests, research
+            collaborations, and other professional opportunities. Once submitted,
+            your inquiry will open a draft email to {contactEmail}.
+          </p>
+          <p className="mt-5">
+            This contact page is not monitored for clinical questions, appointment
+            requests, symptoms, medical history, or urgent health concerns. Please do
+            not include personal health information.
+          </p>
+        </div>
 
         <div className="mt-10 grid gap-4">
           {inquiryRoutes.map((route) => (

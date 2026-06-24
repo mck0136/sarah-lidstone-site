@@ -3,38 +3,201 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Dr. Sarah Lidstone Speaker One-Sheet Placeholder</title>
+    <title>Dr. Sarah Lidstone Speaker One-Sheet</title>
     <style>
+      :root {
+        --slate: #263957;
+        --oxblood: #6e2427;
+        --blush: #dfafb2;
+        --charcoal: #222222;
+        --ivory: #fcfaf8;
+        --paper: #ffffff;
+        --warm-gray: #e9e4e0;
+      }
       body {
-        margin: 40px;
-        color: #222;
-        background: #fcfaf8;
+        margin: 0;
+        color: var(--charcoal);
+        background: var(--ivory);
         font-family: Arial, sans-serif;
         line-height: 1.55;
       }
+      .sheet {
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 44px 28px;
+      }
+      .hero {
+        display: grid;
+        grid-template-columns: 1.05fr 0.95fr;
+        gap: 36px;
+        align-items: center;
+      }
+      .eyebrow {
+        color: var(--oxblood);
+        font-size: 12px;
+        font-weight: 800;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+      }
       h1 {
-        color: #263957;
+        color: var(--slate);
         font-family: Georgia, serif;
-        font-size: 40px;
+        font-size: 48px;
+        line-height: 1;
+        margin: 14px 0 18px;
+      }
+      h2 {
+        color: var(--slate);
+        font-family: Georgia, serif;
+        font-size: 28px;
+        line-height: 1.1;
+        margin: 0 0 14px;
+      }
+      p {
+        margin: 0;
       }
       .rule {
-        border-top: 2px solid #6e2427;
+        border-top: 2px solid var(--oxblood);
         margin: 24px 0;
       }
-      .note {
-        background: #dfafb233;
-        border: 1px solid #e9e4e0;
-        padding: 16px;
+      .portrait {
+        overflow: hidden;
+        border: 1px solid color-mix(in srgb, var(--oxblood) 22%, transparent);
+        border-radius: 4px;
+        background: var(--paper);
+      }
+      .portrait img {
+        display: block;
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        object-position: center top;
+      }
+      .summary {
+        color: color-mix(in srgb, var(--charcoal) 76%, transparent);
+        font-size: 18px;
+        line-height: 1.65;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 22px;
+        margin-top: 34px;
+      }
+      .card {
+        border: 1px solid var(--warm-gray);
+        border-radius: 4px;
+        background: var(--paper);
+        padding: 22px;
+      }
+      ul {
+        margin: 0;
+        padding-left: 20px;
+      }
+      li + li {
+        margin-top: 8px;
+      }
+      .contact {
+        margin-top: 34px;
+        border-top: 2px solid var(--oxblood);
+        padding-top: 22px;
+        color: color-mix(in srgb, var(--charcoal) 76%, transparent);
+      }
+      .contact strong {
+        color: var(--slate);
+      }
+      @media print {
+        body {
+          background: #fff;
+        }
+        .sheet {
+          padding: 24px;
+        }
+      }
+      @media (max-width: 760px) {
+        .hero,
+        .grid {
+          grid-template-columns: 1fr;
+        }
+        h1 {
+          font-size: 40px;
+        }
       }
     </style>
   </head>
   <body>
-    <h1>Dr. Sarah Lidstone</h1>
-    <p><strong>Neurologist - Researcher - Speaker</strong></p>
-    <div class="rule"></div>
-    <p class="note">
-      Placeholder speaker one-sheet. Replace with approved biography, headshot,
-      speaking topics, media contact, and booking information before launch.
-    </p>
+    <main class="sheet">
+      <section class="hero">
+        <div>
+          <p class="eyebrow">Speaker One-Sheet</p>
+          <h1>Dr. Sarah Lidstone</h1>
+          <p><strong>Movement Disorders Neurologist · Researcher · Speaker</strong></p>
+          <div class="rule"></div>
+          <p class="summary">
+            Dr. Sarah Lidstone is a movement disorders neurologist and the Director
+            of the Integrated Movement Disorders Program at the Toronto
+            Rehabilitation Institute. She is an Assistant Professor of Neurology at
+            the University of Toronto.
+          </p>
+        </div>
+        <div class="portrait">
+          <img src="/images/sarah-lidstone-headshot-highres.jpg" alt="Portrait of Dr. Sarah Lidstone">
+        </div>
+      </section>
+
+      <section class="grid">
+        <article class="card">
+          <h2>Bio</h2>
+          <p>
+            Dr. Lidstone completed her residency in neurology and her fellowship in
+            movement disorders at the University of Toronto. Prior to this, she
+            completed her PhD in Neuroscience at the University of British Columbia,
+            studying the placebo effect in Parkinson’s Disease. She is the Co-Chair
+            of the Functional Neurological Disorders Society Education Committee.
+          </p>
+        </article>
+        <article class="card">
+          <h2>Speaking Focus</h2>
+          <p>
+            Her research focuses on developing and testing novel rehabilitation
+            therapies using the integration of physical and mental health. She
+            recently gave a TED talk, “It’s all in your head,” about mind-body
+            integration in medicine.
+          </p>
+        </article>
+      </section>
+
+      <section class="grid">
+        <article class="card">
+          <h2>Selected Topics</h2>
+          <ul>
+            <li>Brain, mind, and body integration in medicine</li>
+            <li>Functional neurological disorder and recovery</li>
+            <li>Movement disorders, rehabilitation, and patient education</li>
+            <li>Resilience, expectation, and complex health outcomes</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h2>Ideal Audiences</h2>
+          <ul>
+            <li>Healthcare conferences and academic institutions</li>
+            <li>Interdisciplinary clinical teams</li>
+            <li>Leadership and professional education programs</li>
+            <li>Media, podcasts, and community audiences</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="contact">
+        <p>
+          <strong>Professional inquiries:</strong>
+          Sarah.Lidstone@gmail.com
+        </p>
+        <p>
+          This one-sheet is for speaking, media, research, and professional
+          opportunities. It is not a patient intake channel.
+        </p>
+      </section>
+    </main>
   </body>
 </html>

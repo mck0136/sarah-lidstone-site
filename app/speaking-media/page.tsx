@@ -67,13 +67,6 @@ export default function SpeakingMediaPage() {
                 className="aspect-square w-full object-cover"
                 sizes="(min-width: 1024px) 420px, 100vw"
               />
-              <div className="p-5">
-                <h2 className="font-semibold text-slate">Approved headshot</h2>
-                <p className="mt-2 text-sm leading-6 text-charcoal/70">
-                  Current portrait placed for preview. Confirm usage rights and final
-                  approved crop before launch.
-                </p>
-              </div>
             </div>
             <a
               href={mediaPortrait.src}
@@ -87,7 +80,7 @@ export default function SpeakingMediaPage() {
               external
               variant="secondary"
             >
-              Download Speaker One-Sheet Placeholder
+              Download Speaker One-Sheet
             </ButtonLink>
           </div>
         </BlushPanel>
