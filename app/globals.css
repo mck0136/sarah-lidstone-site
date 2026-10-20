@@ -1,79 +1,10 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  color-scheme: light;
-  background: #fcfaf8;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  margin: 0;
-  background:
-    radial-gradient(circle at top left, rgba(223, 175, 178, 0.22), transparent 34rem),
-    #fcfaf8;
-  color: #222222;
-  font-family: Inter, Arial, sans-serif;
-}
-
-::selection {
-  background: rgba(110, 36, 39, 0.18);
-}
-
-a {
-  color: inherit;
-}
-
-.serif-balance {
-  text-wrap: balance;
-}
-
-.portrait-abstract {
-  position: relative;
-  min-height: 520px;
-  overflow: hidden;
-  border: 1px solid rgba(110, 36, 39, 0.16);
-  border-radius: 4px;
-  background:
-    linear-gradient(145deg, rgba(252, 250, 248, 0.82), rgba(223, 175, 178, 0.36)),
-    repeating-linear-gradient(90deg, rgba(110, 36, 39, 0.08) 0 1px, transparent 1px 42px);
-}
-
-.portrait-abstract::before {
-  position: absolute;
-  inset: 12%;
-  content: "";
-  border: 1px solid rgba(38, 57, 87, 0.14);
-  border-radius: 50%;
-  background:
-    radial-gradient(circle at 42% 38%, rgba(110, 36, 39, 0.28), transparent 0.55rem),
-    radial-gradient(circle at 58% 45%, rgba(38, 57, 87, 0.2), transparent 0.48rem),
-    radial-gradient(circle at 48% 58%, rgba(110, 36, 39, 0.2), transparent 0.4rem);
-}
-
-.portrait-abstract::after {
-  position: absolute;
-  inset: 18% 10%;
-  content: "";
-  border-top: 1px solid rgba(110, 36, 39, 0.34);
-  border-bottom: 1px solid rgba(38, 57, 87, 0.18);
-  transform: rotate(-13deg);
-}
-
-.focus-ring {
-  @apply focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-oxblood;
-}
-
-@media (max-width: 768px) {
-  .portrait-abstract {
-    min-height: 360px;
-  }
-}
+:root { color-scheme: light; background: #fbf3ee; }
+html, body { margin: 0; min-width: 0; min-height: 100%; }
+body { color: #2a1a24; background: #fbf3ee; font-family: Inter, Arial, sans-serif; }
+a { color: #5a2547; text-decoration: none; }
+a:hover { color: #43182f; }
+:focus-visible { outline: 3px solid #e0904a; outline-offset: 3px; }
+::selection { background: #f3d9d2; color: #43182f; }
+.skip-link { position: fixed; left: 12px; top: -80px; z-index: 100; padding: 12px 18px; background: #43182f; color: #fff; border-radius: 4px; }
+.skip-link:focus { top: 12px; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }

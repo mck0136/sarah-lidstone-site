@@ -23,7 +23,7 @@ export const logoMonogram = {
 };
 
 export const portrait = {
-  src: "/images/sarah-lidstone-portrait-hero.jpeg",
+  src: "/images/home-hero.jpeg",
   alt: "Portrait of Dr. Sarah Lidstone"
 };
 

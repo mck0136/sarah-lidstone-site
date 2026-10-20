@@ -1,0 +1,17 @@
+{
+  "/": 200,
+  "/images/sarah-lidstone-favicon.png": 200,
+  "/downloads/speaker-one-sheet-placeholder.html": 200,
+  "/sitemap.xml": 200,
+  "/speaking": {
+    "status": 308,
+    "location": "/speaking-media"
+  },
+  "/Speaking.dc.html": {
+    "status": 308,
+    "location": "/speaking-media"
+  },
+  "localSpeakerDownload": true,
+  "nativeLayout": true,
+  "recovery404": true
+}

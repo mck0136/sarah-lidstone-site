@@ -1,7 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Footer } from "@/components/Footer";
-import { Header } from "@/components/Header";
 import { StructuredData } from "@/components/StructuredData";
 import { portrait, siteConfig, tedxTalk } from "@/content/site";
 
@@ -12,6 +10,7 @@ export const metadata: Metadata = {
     template: "%s | Dr. Sarah Lidstone"
   },
   description: siteConfig.description,
+  icons: { icon: "/images/sarah-lidstone-favicon.png" },
   openGraph: {
     title: siteConfig.title,
     description: siteConfig.description,
@@ -55,15 +54,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600;700;800&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Gilda+Display&family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap"
           rel="stylesheet"
         />
       </head>
-      <body className="min-h-screen antialiased">
+      <body>
         <StructuredData data={personSchema} />
-        <Header />
-        <main>{children}</main>
-        <Footer />
+        <a className="skip-link" href="#main-content">Skip to content</a>
+        <main id="main-content" tabIndex={-1}>{children}</main>
       </body>
     </html>
   );

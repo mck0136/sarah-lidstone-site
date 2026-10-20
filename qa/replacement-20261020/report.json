@@ -1,0 +1,319 @@
+{
+  "checkedAt": "2026-10-20T22:36:27.183Z",
+  "base": "http://127.0.0.1:3005",
+  "pages": [
+    {
+      "name": "Home",
+      "route": "/",
+      "desktop": {
+        "h1": "Neurology that sees the whole person.",
+        "brokenImages": [],
+        "missingAlt": 0,
+        "emptyLinks": 0,
+        "contentWidth": 1440,
+        "viewportWidth": 1440,
+        "documentWidth": 1440,
+        "sourceTextMatches": true,
+        "referenceDifferencePercent": 0
+      },
+      "phone": {
+        "h1": "Neurology that sees the whole person.",
+        "brokenImages": [],
+        "missingAlt": 0,
+        "emptyLinks": 0,
+        "contentWidth": 390,
+        "viewportWidth": 390,
+        "documentWidth": 390,
+        "sourceTextMatches": true,
+        "referenceDifferencePercent": 0
+      }
+    },
+    {
+      "name": "About",
+      "route": "/about",
+      "desktop": {
+        "h1": "About Dr. Sarah Lidstone",
+        "brokenImages": [],
+        "missingAlt": 0,
+        "emptyLinks": 0,
+        "contentWidth": 1440,
+        "viewportWidth": 1440,
+        "documentWidth": 1440,
+        "sourceTextMatches": true,
+        "referenceDifferencePercent": 0
+      },
+      "phone": {
+        "h1": "About Dr. Sarah Lidstone",
+        "brokenImages": [],
+        "missingAlt": 0,
+        "emptyLinks": 0,
+        "contentWidth": 390,
+        "viewportWidth": 390,
+        "documentWidth": 390,
+        "sourceTextMatches": true,
+        "referenceDifferencePercent": 0
+      }
+    },
+    {
+      "name": "Research",
+      "route": "/research",
+      "desktop": {
+        "h1": "Research & Publications",
+        "brokenImages": [],
+        "missingAlt": 0,
+        "emptyLinks": 0,
+        "contentWidth": 1440,
+        "viewportWidth": 1440,
+        "documentWidth": 1440,
+        "sourceTextMatches": true,
+        "referenceDifferencePercent": 0
+      },
+      "phone": {
+        "h1": "Research & Publications",
+        "brokenImages": [],
+        "missingAlt": 0,
+        "emptyLinks": 0,
+        "contentWidth": 390,
+        "viewportWidth": 390,
+        "documentWidth": 390,
+        "sourceTextMatches": true,
+        "referenceDifferencePercent": 0
+      }
+    },
+    {
+      "name": "Speaking",
+      "route": "/speaking-media",
+      "desktop": {
+        "h1": "For organizations ready to rethink the divide between physical and mental health.",
+        "brokenImages": [],
+        "missingAlt": 0,
+        "emptyLinks": 0,
+        "contentWidth": 1440,
+        "viewportWidth": 1440,
+        "documentWidth": 1440,
+        "sourceTextMatches": true,
+        "referenceDifferencePercent": 0
+      },
+      "phone": {
+        "h1": "For organizations ready to rethink the divide between physical and mental health.",
+        "brokenImages": [],
+        "missingAlt": 0,
+        "emptyLinks": 0,
+        "contentWidth": 390,
+        "viewportWidth": 390,
+        "documentWidth": 390,
+        "sourceTextMatches": true,
+        "referenceDifferencePercent": 0
+      }
+    },
+    {
+      "name": "IntegratedCare",
+      "route": "/integrated-care",
+      "desktop": {
+        "h1": "Brain. Mind. Body.",
+        "brokenImages": [],
+        "missingAlt": 0,
+        "emptyLinks": 0,
+        "contentWidth": 1440,
+        "viewportWidth": 1440,
+        "documentWidth": 1440,
+        "sourceTextMatches": true,
+        "referenceDifferencePercent": 0
+      },
+      "phone": {
+        "h1": "Brain. Mind. Body.",
+        "brokenImages": [],
+        "missingAlt": 0,
+        "emptyLinks": 0,
+        "contentWidth": 390,
+        "viewportWidth": 390,
+        "documentWidth": 390,
+        "sourceTextMatches": true,
+        "referenceDifferencePercent": 0
+      }
+    },
+    {
+      "name": "Consulting",
+      "route": "/consulting",
+      "desktop": {
+        "h1": "Physician Innovator, Parkinson Canada.",
+        "brokenImages": [],
+        "missingAlt": 0,
+        "emptyLinks": 0,
+        "contentWidth": 1440,
+        "viewportWidth": 1440,
+        "documentWidth": 1440,
+        "sourceTextMatches": true,
+        "referenceDifferencePercent": 0
+      },
+      "phone": {
+        "h1": "Physician Innovator, Parkinson Canada.",
+        "brokenImages": [],
+        "missingAlt": 0,
+        "emptyLinks": 0,
+        "contentWidth": 390,
+        "viewportWidth": 390,
+        "documentWidth": 390,
+        "sourceTextMatches": true,
+        "referenceDifferencePercent": 0
+      }
+    },
+    {
+      "name": "Creative",
+      "route": "/creative",
+      "desktop": {
+        "h1": "Medical consulting for film.",
+        "brokenImages": [],
+        "missingAlt": 0,
+        "emptyLinks": 0,
+        "contentWidth": 1440,
+        "viewportWidth": 1440,
+        "documentWidth": 1440,
+        "sourceTextMatches": true,
+        "referenceDifferencePercent": 0
+      },
+      "phone": {
+        "h1": "Medical consulting for film.",
+        "brokenImages": [],
+        "missingAlt": 0,
+        "emptyLinks": 0,
+        "contentWidth": 390,
+        "viewportWidth": 390,
+        "documentWidth": 390,
+        "sourceTextMatches": true,
+        "referenceDifferencePercent": 0
+      }
+    },
+    {
+      "name": "Education",
+      "route": "/education",
+      "desktop": {
+        "h1": "The Neurologist Next Door.",
+        "brokenImages": [],
+        "missingAlt": 0,
+        "emptyLinks": 0,
+        "contentWidth": 1440,
+        "viewportWidth": 1440,
+        "documentWidth": 1440,
+        "sourceTextMatches": true,
+        "referenceDifferencePercent": 0
+      },
+      "phone": {
+        "h1": "The Neurologist Next Door.",
+        "brokenImages": [],
+        "missingAlt": 0,
+        "emptyLinks": 0,
+        "contentWidth": 390,
+        "viewportWidth": 390,
+        "documentWidth": 390,
+        "sourceTextMatches": true,
+        "referenceDifferencePercent": 0
+      }
+    },
+    {
+      "name": "Contact",
+      "route": "/contact",
+      "desktop": {
+        "h1": "Professional inquiries only.",
+        "brokenImages": [],
+        "missingAlt": 0,
+        "emptyLinks": 0,
+        "contentWidth": 1440,
+        "viewportWidth": 1440,
+        "documentWidth": 1440,
+        "sourceTextMatches": true,
+        "referenceDifferencePercent": 0
+      },
+      "phone": {
+        "h1": "Professional inquiries only.",
+        "brokenImages": [],
+        "missingAlt": 0,
+        "emptyLinks": 0,
+        "contentWidth": 390,
+        "viewportWidth": 390,
+        "documentWidth": 390,
+        "sourceTextMatches": true,
+        "referenceDifferencePercent": 0
+      }
+    },
+    {
+      "name": "Privacy",
+      "route": "/privacy",
+      "desktop": {
+        "h1": "Privacy Policy",
+        "brokenImages": [],
+        "missingAlt": 0,
+        "emptyLinks": 0,
+        "contentWidth": 1440,
+        "viewportWidth": 1440,
+        "documentWidth": 1440,
+        "sourceTextMatches": true,
+        "referenceDifferencePercent": 0
+      },
+      "phone": {
+        "h1": "Privacy Policy",
+        "brokenImages": [],
+        "missingAlt": 0,
+        "emptyLinks": 0,
+        "contentWidth": 390,
+        "viewportWidth": 390,
+        "documentWidth": 390,
+        "sourceTextMatches": true,
+        "referenceDifferencePercent": 0
+      }
+    },
+    {
+      "name": "Accessibility",
+      "route": "/accessibility",
+      "desktop": {
+        "h1": "Accessibility Statement",
+        "brokenImages": [],
+        "missingAlt": 0,
+        "emptyLinks": 0,
+        "contentWidth": 1440,
+        "viewportWidth": 1440,
+        "documentWidth": 1440,
+        "sourceTextMatches": true,
+        "referenceDifferencePercent": 0
+      },
+      "phone": {
+        "h1": "Accessibility Statement",
+        "brokenImages": [],
+        "missingAlt": 0,
+        "emptyLinks": 0,
+        "contentWidth": 390,
+        "viewportWidth": 390,
+        "documentWidth": 390,
+        "sourceTextMatches": true,
+        "referenceDifferencePercent": 0
+      }
+    }
+  ],
+  "interactions": {
+    "menu": {
+      "opened": true,
+      "escaped": true,
+      "navigated": true,
+      "closedAfterNavigation": true
+    },
+    "heightResizePreservesScroll": true,
+    "narrowHome": {
+      "width": 360,
+      "documentWidth": 360,
+      "lockups": 0
+    },
+    "contact": {
+      "invalidPrevented": true,
+      "draftPrepared": true,
+      "includesFields": true
+    },
+    "serverRendered": true
+  },
+  "localTargets": 26,
+  "failures": [],
+  "warnings": [
+    "External request unavailable: https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1824316958234873&show_text=false&width=734",
+    "External request unavailable: https://www.instagram.com/reel/DWuG1M5DmPn/embed",
+    "External request unavailable: mailto:Sarah.Lidstone@gmail.com?subject=Speaking%20and%20media%20inquiry&body=Name%3A%20Website%20Review%0AEmail%3A%20review%40example.test%0AOrganization%3A%20%0A%0ASynthetic%20website%20review%20message.%20No%20delivery%20requested."
+  ]
+}

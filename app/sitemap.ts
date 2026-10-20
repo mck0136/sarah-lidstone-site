@@ -8,6 +8,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/research",
     "/speaking-media",
     "/integrated-care",
+    "/consulting",
+    "/creative",
+    "/education",
     "/contact",
     "/privacy",
     "/accessibility"

@@ -1,0 +1,649 @@
+{
+  "generated_at": "2026-10-20",
+  "reference": "sarah-lidstone-design-reference-20261019",
+  "target": "sarah-lidstone-site",
+  "assets": [
+    {
+      "folder": "images",
+      "source_count": 14,
+      "public_copies_verified": 14,
+      "files": [
+        {
+          "source": "sarah-lidstone-design-reference-20261019/images/beyond-the-checkbox-clip.png",
+          "public": "sarah-lidstone-site/public/images/beyond-the-checkbox-clip.png",
+          "sha256_match": true
+        },
+        {
+          "source": "sarah-lidstone-design-reference-20261019/images/ditch-the-labcoat.png",
+          "public": "sarah-lidstone-site/public/images/ditch-the-labcoat.png",
+          "sha256_match": true
+        },
+        {
+          "source": "sarah-lidstone-design-reference-20261019/images/home-hero.jpeg",
+          "public": "sarah-lidstone-site/public/images/home-hero.jpeg",
+          "sha256_match": true
+        },
+        {
+          "source": "sarah-lidstone-design-reference-20261019/images/lightspeed-keynote-1.jpeg",
+          "public": "sarah-lidstone-site/public/images/lightspeed-keynote-1.jpeg",
+          "sha256_match": true
+        },
+        {
+          "source": "sarah-lidstone-design-reference-20261019/images/lightspeed-keynote-2.jpeg",
+          "public": "sarah-lidstone-site/public/images/lightspeed-keynote-2.jpeg",
+          "sha256_match": true
+        },
+        {
+          "source": "sarah-lidstone-design-reference-20261019/images/research-mds-seoul-2026.jpeg",
+          "public": "sarah-lidstone-site/public/images/research-mds-seoul-2026.jpeg",
+          "sha256_match": true
+        },
+        {
+          "source": "sarah-lidstone-design-reference-20261019/images/research-poster-nice.jpg",
+          "public": "sarah-lidstone-site/public/images/research-poster-nice.jpg",
+          "sha256_match": true
+        },
+        {
+          "source": "sarah-lidstone-design-reference-20261019/images/research-poster-uoft.jpeg",
+          "public": "sarah-lidstone-site/public/images/research-poster-uoft.jpeg",
+          "sha256_match": true
+        },
+        {
+          "source": "sarah-lidstone-design-reference-20261019/images/research-presenting-twh-2019.jpg",
+          "public": "sarah-lidstone-site/public/images/research-presenting-twh-2019.jpg",
+          "sha256_match": true
+        },
+        {
+          "source": "sarah-lidstone-design-reference-20261019/images/teaching-mumbai-2023.jpg",
+          "public": "sarah-lidstone-site/public/images/teaching-mumbai-2023.jpg",
+          "sha256_match": true
+        },
+        {
+          "source": "sarah-lidstone-design-reference-20261019/images/teaching-residents-1.jpg",
+          "public": "sarah-lidstone-site/public/images/teaching-residents-1.jpg",
+          "sha256_match": true
+        },
+        {
+          "source": "sarah-lidstone-design-reference-20261019/images/teaching-residents-2.jpg",
+          "public": "sarah-lidstone-site/public/images/teaching-residents-2.jpg",
+          "sha256_match": true
+        },
+        {
+          "source": "sarah-lidstone-design-reference-20261019/images/tedx-talk.jpg",
+          "public": "sarah-lidstone-site/public/images/tedx-talk.jpg",
+          "sha256_match": true
+        },
+        {
+          "source": "sarah-lidstone-design-reference-20261019/images/youtube-headshot.jpeg",
+          "public": "sarah-lidstone-site/public/images/youtube-headshot.jpeg",
+          "sha256_match": true
+        }
+      ]
+    },
+    {
+      "folder": "uploads",
+      "source_count": 18,
+      "public_copies_verified": 18,
+      "files": [
+        {
+          "source": "sarah-lidstone-design-reference-20261019/uploads/2.jpeg",
+          "public": "sarah-lidstone-site/public/uploads/2.jpeg",
+          "sha256_match": true
+        },
+        {
+          "source": "sarah-lidstone-design-reference-20261019/uploads/28d0ba59-fda8-42aa-a507-9ef2014147f9 2.jpg",
+          "public": "sarah-lidstone-site/public/uploads/28d0ba59-fda8-42aa-a507-9ef2014147f9 2.jpg",
+          "sha256_match": true
+        },
+        {
+          "source": "sarah-lidstone-design-reference-20261019/uploads/5.jpeg",
+          "public": "sarah-lidstone-site/public/uploads/5.jpeg",
+          "sha256_match": true
+        },
+        {
+          "source": "sarah-lidstone-design-reference-20261019/uploads/75f13309-6179-4439-8f26-f57fc74cb3d8.JPG",
+          "public": "sarah-lidstone-site/public/uploads/75f13309-6179-4439-8f26-f57fc74cb3d8.JPG",
+          "sha256_match": true
+        },
+        {
+          "source": "sarah-lidstone-design-reference-20261019/uploads/IMG_1101.jpeg",
+          "public": "sarah-lidstone-site/public/uploads/IMG_1101.jpeg",
+          "sha256_match": true
+        },
+        {
+          "source": "sarah-lidstone-design-reference-20261019/uploads/IMG_5657.JPG",
+          "public": "sarah-lidstone-site/public/uploads/IMG_5657.JPG",
+          "sha256_match": true
+        },
+        {
+          "source": "sarah-lidstone-design-reference-20261019/uploads/IMG_5933.JPG",
+          "public": "sarah-lidstone-site/public/uploads/IMG_5933.JPG",
+          "sha256_match": true
+        },
+        {
+          "source": "sarah-lidstone-design-reference-20261019/uploads/IMG_6557.jpeg",
+          "public": "sarah-lidstone-site/public/uploads/IMG_6557.jpeg",
+          "sha256_match": true
+        },
+        {
+          "source": "sarah-lidstone-design-reference-20261019/uploads/IMG_8868 2.JPG",
+          "public": "sarah-lidstone-site/public/uploads/IMG_8868 2.JPG",
+          "sha256_match": true
+        },
+        {
+          "source": "sarah-lidstone-design-reference-20261019/uploads/b6d964e5-db39-4ca6-bde0-0e3a8f039cf7.JPG",
+          "public": "sarah-lidstone-site/public/uploads/b6d964e5-db39-4ca6-bde0-0e3a8f039cf7.JPG",
+          "sha256_match": true
+        },
+        {
+          "source": "sarah-lidstone-design-reference-20261019/uploads/lightspeedkeynote 1.jpeg",
+          "public": "sarah-lidstone-site/public/uploads/lightspeedkeynote 1.jpeg",
+          "sha256_match": true
+        },
+        {
+          "source": "sarah-lidstone-design-reference-20261019/uploads/lightspeedkeynote 2.jpeg",
+          "public": "sarah-lidstone-site/public/uploads/lightspeedkeynote 2.jpeg",
+          "sha256_match": true
+        },
+        {
+          "source": "sarah-lidstone-design-reference-20261019/uploads/pasted-1792330958836-0.png",
+          "public": "sarah-lidstone-site/public/uploads/pasted-1792330958836-0.png",
+          "sha256_match": true
+        },
+        {
+          "source": "sarah-lidstone-design-reference-20261019/uploads/pasted-1792330970889-0.png",
+          "public": "sarah-lidstone-site/public/uploads/pasted-1792330970889-0.png",
+          "sha256_match": true
+        },
+        {
+          "source": "sarah-lidstone-design-reference-20261019/uploads/pasted-1792331042867-0.png",
+          "public": "sarah-lidstone-site/public/uploads/pasted-1792331042867-0.png",
+          "sha256_match": true
+        },
+        {
+          "source": "sarah-lidstone-design-reference-20261019/uploads/pasted-1792331115580-0.png",
+          "public": "sarah-lidstone-site/public/uploads/pasted-1792331115580-0.png",
+          "sha256_match": true
+        },
+        {
+          "source": "sarah-lidstone-design-reference-20261019/uploads/pasted-1792336533566-0.png",
+          "public": "sarah-lidstone-site/public/uploads/pasted-1792336533566-0.png",
+          "sha256_match": true
+        },
+        {
+          "source": "sarah-lidstone-design-reference-20261019/uploads/pasted-1792338077852-0.png",
+          "public": "sarah-lidstone-site/public/uploads/pasted-1792338077852-0.png",
+          "sha256_match": true
+        }
+      ]
+    },
+    {
+      "folder": "exports",
+      "source_count": 2,
+      "public_copies_verified": 2,
+      "files": [
+        {
+          "source": "sarah-lidstone-design-reference-20261019/exports/youtube-avatar-800.png",
+          "public": "sarah-lidstone-site/public/exports/youtube-avatar-800.png",
+          "sha256_match": true
+        },
+        {
+          "source": "sarah-lidstone-design-reference-20261019/exports/youtube-banner-2560x1440.png",
+          "public": "sarah-lidstone-site/public/exports/youtube-banner-2560x1440.png",
+          "sha256_match": true
+        }
+      ]
+    }
+  ],
+  "public_asset_totals": {
+    "images": 20,
+    "uploads": 18,
+    "exports": 2
+  },
+  "source_external_links": [
+    "https://doi.org/10.1001/archgenpsychiatry.2010.88",
+    "https://doi.org/10.1002/mdc3.12888",
+    "https://doi.org/10.1002/mdc3.14007",
+    "https://doi.org/10.1002/mdc3.14121",
+    "https://doi.org/10.1007/978-3-662-44519-8_8",
+    "https://doi.org/10.1016/j.ncl.2023.04.002",
+    "https://doi.org/10.1017/S1092852920001996",
+    "https://doi.org/10.1055/s-0043-1763505",
+    "https://doi.org/10.1080/09638288.2024.2373775",
+    "https://doi.org/10.1080/14737175.2020.1771184",
+    "https://doi.org/10.1136/jnnp-2021-328462",
+    "https://drsarahlidstone.com",
+    "https://drsarahlidstone.com/downloads/speaker-one-sheet-placeholder.html",
+    "https://drsarahlidstone.com/images/sarah-lidstone-headshot-highres.jpg",
+    "https://drsarahlidstone.com/images/sarah-lidstone-portrait-about.jpeg",
+    "https://fonts.googleapis.com",
+    "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Gilda+Display&family=Great+Vibes&family=Inter:wght@400;600;700&display=swap",
+    "https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:wght@500&family=Inter:wght@400;600&display=swap",
+    "https://fonts.googleapis.com/css2?family=Great+Vibes&family=Gilda+Display&family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap",
+    "https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Parisienne&family=Great+Vibes&family=Instrument+Serif:ital@0;1&family=Gilda+Display&family=Young+Serif&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=DM+Serif+Display&family=Libre+Caslon+Display&family=Inter:wght@400;600;700&display=swap",
+    "https://headversity.com/resources/podcast/functional-neurological-disorders/",
+    "https://i.ytimg.com/vi/XtSNBqC1z18/hqdefault.jpg",
+    "https://img.youtube.com/vi/BaRMiThlMYk/maxresdefault.jpg",
+    "https://open.spotify.com/episode/3edrcLWxaLKJeXzhUJjAOd",
+    "https://orcid.org/0000-0002-0147-0202",
+    "https://podcasts.apple.com/us/podcast/dr-sarah-lidstone-neurologist-transforming-parkinsons/id1493527932?i=1000466053686",
+    "https://pubmed.ncbi.nlm.nih.gov/20679593/",
+    "https://pubmed.ncbi.nlm.nih.gov/25304530/",
+    "https://pubmed.ncbi.nlm.nih.gov/32071934/",
+    "https://pubmed.ncbi.nlm.nih.gov/32479209/",
+    "https://pubmed.ncbi.nlm.nih.gov/33161935/",
+    "https://pubmed.ncbi.nlm.nih.gov/35217516/",
+    "https://pubmed.ncbi.nlm.nih.gov/36893796/",
+    "https://pubmed.ncbi.nlm.nih.gov/37775201/",
+    "https://pubmed.ncbi.nlm.nih.gov/38385766/",
+    "https://pubmed.ncbi.nlm.nih.gov/38853490/",
+    "https://pubmed.ncbi.nlm.nih.gov/38978472/",
+    "https://pubmed.ncbi.nlm.nih.gov/?term=Lidstone%20SC%5BAuthor%5D",
+    "https://pubmed.ncbi.nlm.nih.gov/?term=Lidstone+SC%5BAuthor%5D",
+    "https://uhnfoundation.ca/stories/multidisciplinary-care-for-parkinsons-disease/",
+    "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1824316958234873&show_text=false&width=734",
+    "https://www.facebook.com/watch/?v=1824316958234873",
+    "https://www.instagram.com/reel/DWuG1M5DmPn/",
+    "https://www.instagram.com/reel/DWuG1M5DmPn/embed",
+    "https://www.movementdisorders.org/Podcasts/Exploring-postural-control-in-functional-motor-disorders-using-virtual-reality.htm",
+    "https://www.movementdisorders.org/Podcasts/Integrated-therapy-for-functional-movement-disorders.htm",
+    "https://www.vjneurology.com/video/af8s0maefp8-managing-newly-diagnosed-functional-movement-disorder/",
+    "https://www.vjneurology.com/video/kulv-kv82ey-diagnosing-functional-movement-disorders/",
+    "https://www.vjneurology.com/video/nquuhkuxtp0-optimizing-functional-movement-disorder-management-multidisciplinary-care-and-patient-education/",
+    "https://www.vjneurology.com/video/q5-cladfkew-holistic-approaches-to-fnd-treatment/",
+    "https://www.vjneurology.com/video/qpvrdem5tmi-advances-in-fnd-research-understanding-mechanisms-and-novel-treatment-paradigms/",
+    "https://www.vjneurology.com/video/zgnh8cm_hhw-diagnosing-functional-movement-disorder/",
+    "https://www.youtube-nocookie.com/embed/XtSNBqC1z18",
+    "https://www.youtube.com/watch?v=1pESZmsg_VI",
+    "https://www.youtube.com/watch?v=BaRMiThlMYk",
+    "https://www.youtube.com/watch?v=G7t8KMGbwzA&t=56s",
+    "https://www.youtube.com/watch?v=XtSNBqC1z18",
+    "https://www.youtube.com/watch?v=vtS7faSFVrQ&t=65s"
+  ],
+  "external_link_check": {
+    "status": "completed_with_tls_verification_disabled",
+    "method": "HTTP GET with Range bytes=0-0, max 4 concurrent requests, 8 second timeout, following redirects. The environment TLS inspection certificate is untrusted by Python, so these GET checks disabled certificate verification; status results are only connectivity evidence.",
+    "summary": "36 destinations returned 200/206; 21 returned 403 (blocked or rate-limited, not confirmed missing); one bare font preconnect origin returned 404 and is not visitor-facing. No visitor-facing URL was confirmed 404/410."
+  },
+  "local_route_audit": {
+    "implemented_routes": [
+      "/",
+      "/about",
+      "/research",
+      "/speaking-media",
+      "/integrated-care",
+      "/contact",
+      "/privacy",
+      "/accessibility"
+    ],
+    "reference_routes_without_active_app_route": [
+      "Consulting.dc.html",
+      "Creative.dc.html",
+      "Education.dc.html"
+    ]
+  },
+  "placeholders": [
+    "/downloads/speaker-one-sheet-placeholder.html is linked from Speaking & Media; filename and content identify it as a placeholder. It includes supplied bio/topic copy but has no approved final-download status. Do not present it as a finished press asset without review.",
+    "The home page source template contains a citation-data note; the app page preserves this note and explicitly says citation counts are omitted because no stable source was available."
+  ],
+  "external_live_status_summary": {
+    "checked_url_count": 58,
+    "method": "HTTP GET with Range bytes=0-0, max 4 concurrent requests, 8 second timeout, following redirects. The environment TLS inspection certificate is untrusted by Python, so these GET checks disabled certificate verification; status results are only connectivity evidence.",
+    "results": [
+      {
+        "url": "https://doi.org/10.1001/archgenpsychiatry.2010.88",
+        "status": 403,
+        "final_url": "https://jamanetwork.com/article.aspx?doi=10.1001/archgenpsychiatry.2010.88",
+        "class": "blocked_or_rate_limited"
+      },
+      {
+        "url": "https://doi.org/10.1002/mdc3.12888",
+        "status": 403,
+        "final_url": "https://movementdisorders.onlinelibrary.wiley.com/doi/10.1002/mdc3.12888",
+        "class": "blocked_or_rate_limited"
+      },
+      {
+        "url": "https://doi.org/10.1002/mdc3.14007",
+        "status": 403,
+        "final_url": "https://movementdisorders.onlinelibrary.wiley.com/doi/10.1002/mdc3.14007",
+        "class": "blocked_or_rate_limited"
+      },
+      {
+        "url": "https://doi.org/10.1002/mdc3.14121",
+        "status": 403,
+        "final_url": "https://movementdisorders.onlinelibrary.wiley.com/doi/10.1002/mdc3.14121",
+        "class": "blocked_or_rate_limited"
+      },
+      {
+        "url": "https://doi.org/10.1007/978-3-662-44519-8_8",
+        "status": 200,
+        "final_url": "https://link.springer.com/chapter/10.1007/978-3-662-44519-8_8?error=cookies_not_supported&code=873790d3-9224-4fa9-a4ed-1b62305ab958",
+        "class": "reachable"
+      },
+      {
+        "url": "https://doi.org/10.1016/j.ncl.2023.04.002",
+        "status": 200,
+        "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0733861923000361",
+        "class": "reachable"
+      },
+      {
+        "url": "https://doi.org/10.1017/S1092852920001996",
+        "status": 200,
+        "final_url": "https://www.cambridge.org/core/journals/cns-spectrums/article/abs/diagnosing-functional-neurological-disorder-seeing-the-whole-picture/1498748A14310923FD9F597FB89AE2A6",
+        "class": "reachable"
+      },
+      {
+        "url": "https://doi.org/10.1055/s-0043-1763505",
+        "status": 200,
+        "final_url": "https://www.thieme-connect.de/DOI/DOI?10.1055/s-0043-1763505",
+        "class": "reachable"
+      },
+      {
+        "url": "https://doi.org/10.1080/09638288.2024.2373775",
+        "status": 403,
+        "final_url": "https://www.tandfonline.com/doi/full/10.1080/09638288.2024.2373775",
+        "class": "blocked_or_rate_limited"
+      },
+      {
+        "url": "https://doi.org/10.1080/14737175.2020.1771184",
+        "status": 403,
+        "final_url": "https://www.tandfonline.com/doi/full/10.1080/14737175.2020.1771184",
+        "class": "blocked_or_rate_limited"
+      },
+      {
+        "url": "https://doi.org/10.1136/jnnp-2021-328462",
+        "status": 403,
+        "final_url": "https://jnnp.bmj.com/lookup/doi/10.1136/jnnp-2021-328462",
+        "class": "blocked_or_rate_limited"
+      },
+      {
+        "url": "https://drsarahlidstone.com",
+        "status": 206,
+        "final_url": "https://drsarahlidstone.com",
+        "class": "reachable"
+      },
+      {
+        "url": "https://drsarahlidstone.com/downloads/speaker-one-sheet-placeholder.html",
+        "status": 206,
+        "final_url": "https://drsarahlidstone.com/downloads/speaker-one-sheet-placeholder.html",
+        "class": "reachable"
+      },
+      {
+        "url": "https://drsarahlidstone.com/images/sarah-lidstone-headshot-highres.jpg",
+        "status": 206,
+        "final_url": "https://drsarahlidstone.com/images/sarah-lidstone-headshot-highres.jpg",
+        "class": "reachable"
+      },
+      {
+        "url": "https://drsarahlidstone.com/images/sarah-lidstone-portrait-about.jpeg",
+        "status": 206,
+        "final_url": "https://drsarahlidstone.com/images/sarah-lidstone-portrait-about.jpeg",
+        "class": "reachable"
+      },
+      {
+        "url": "https://fonts.googleapis.com",
+        "status": 404,
+        "final_url": "https://fonts.googleapis.com",
+        "class": "confirmed_missing"
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Gilda+Display&family=Great+Vibes&family=Inter:wght@400;600;700&display=swap",
+        "status": 200,
+        "final_url": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Gilda+Display&family=Great+Vibes&family=Inter:wght@400;600;700&display=swap",
+        "class": "reachable"
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:wght@500&family=Inter:wght@400;600&display=swap",
+        "status": 200,
+        "final_url": "https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:wght@500&family=Inter:wght@400;600&display=swap",
+        "class": "reachable"
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Great+Vibes&family=Gilda+Display&family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap",
+        "status": 200,
+        "final_url": "https://fonts.googleapis.com/css2?family=Great+Vibes&family=Gilda+Display&family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap",
+        "class": "reachable"
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Parisienne&family=Great+Vibes&family=Instrument+Serif:ital@0;1&family=Gilda+Display&family=Young+Serif&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=DM+Serif+Display&family=Libre+Caslon+Display&family=Inter:wght@400;600;700&display=swap",
+        "status": 200,
+        "final_url": "https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Parisienne&family=Great+Vibes&family=Instrument+Serif:ital@0;1&family=Gilda+Display&family=Young+Serif&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=DM+Serif+Display&family=Libre+Caslon+Display&family=Inter:wght@400;600;700&display=swap",
+        "class": "reachable"
+      },
+      {
+        "url": "https://headversity.com/resources/podcast/functional-neurological-disorders/",
+        "status": 403,
+        "final_url": "https://headversity.com/resources/podcast/functional-neurological-disorders/",
+        "class": "blocked_or_rate_limited"
+      },
+      {
+        "url": "https://i.ytimg.com/vi/XtSNBqC1z18/hqdefault.jpg",
+        "status": 206,
+        "final_url": "https://i.ytimg.com/vi/XtSNBqC1z18/hqdefault.jpg",
+        "class": "reachable"
+      },
+      {
+        "url": "https://img.youtube.com/vi/BaRMiThlMYk/maxresdefault.jpg",
+        "status": 206,
+        "final_url": "https://img.youtube.com/vi/BaRMiThlMYk/maxresdefault.jpg",
+        "class": "reachable"
+      },
+      {
+        "url": "https://open.spotify.com/episode/3edrcLWxaLKJeXzhUJjAOd",
+        "status": 200,
+        "final_url": "https://open.spotify.com/episode/3edrcLWxaLKJeXzhUJjAOd",
+        "class": "reachable"
+      },
+      {
+        "url": "https://orcid.org/0000-0002-0147-0202",
+        "status": 206,
+        "final_url": "https://orcid.org/0000-0002-0147-0202",
+        "class": "reachable"
+      },
+      {
+        "url": "https://podcasts.apple.com/us/podcast/dr-sarah-lidstone-neurologist-transforming-parkinsons/id1493527932?i=1000466053686",
+        "status": 200,
+        "final_url": "https://podcasts.apple.com/us/podcast/dr-sarah-lidstone-neurologist-transforming-parkinsons/id1493527932?i=1000466053686",
+        "class": "reachable"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/20679593/",
+        "status": 403,
+        "final_url": "https://pubmed.ncbi.nlm.nih.gov/20679593/",
+        "class": "blocked_or_rate_limited"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/25304530/",
+        "status": 403,
+        "final_url": "https://pubmed.ncbi.nlm.nih.gov/25304530/",
+        "class": "blocked_or_rate_limited"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32071934/",
+        "status": 403,
+        "final_url": "https://pubmed.ncbi.nlm.nih.gov/32071934/",
+        "class": "blocked_or_rate_limited"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32479209/",
+        "status": 403,
+        "final_url": "https://pubmed.ncbi.nlm.nih.gov/32479209/",
+        "class": "blocked_or_rate_limited"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33161935/",
+        "status": 403,
+        "final_url": "https://pubmed.ncbi.nlm.nih.gov/33161935/",
+        "class": "blocked_or_rate_limited"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35217516/",
+        "status": 403,
+        "final_url": "https://pubmed.ncbi.nlm.nih.gov/35217516/",
+        "class": "blocked_or_rate_limited"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36893796/",
+        "status": 403,
+        "final_url": "https://pubmed.ncbi.nlm.nih.gov/36893796/",
+        "class": "blocked_or_rate_limited"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37775201/",
+        "status": 403,
+        "final_url": "https://pubmed.ncbi.nlm.nih.gov/37775201/",
+        "class": "blocked_or_rate_limited"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38385766/",
+        "status": 403,
+        "final_url": "https://pubmed.ncbi.nlm.nih.gov/38385766/",
+        "class": "blocked_or_rate_limited"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38853490/",
+        "status": 403,
+        "final_url": "https://pubmed.ncbi.nlm.nih.gov/38853490/",
+        "class": "blocked_or_rate_limited"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38978472/",
+        "status": 403,
+        "final_url": "https://pubmed.ncbi.nlm.nih.gov/38978472/",
+        "class": "blocked_or_rate_limited"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Lidstone%20SC%5BAuthor%5D",
+        "status": 403,
+        "final_url": "https://pubmed.ncbi.nlm.nih.gov/?term=Lidstone%20SC%5BAuthor%5D",
+        "class": "blocked_or_rate_limited"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Lidstone+SC%5BAuthor%5D",
+        "status": 403,
+        "final_url": "https://pubmed.ncbi.nlm.nih.gov/?term=Lidstone+SC%5BAuthor%5D",
+        "class": "blocked_or_rate_limited"
+      },
+      {
+        "url": "https://uhnfoundation.ca/stories/multidisciplinary-care-for-parkinsons-disease/",
+        "status": 200,
+        "final_url": "https://uhnfoundation.ca/stories/multidisciplinary-care-for-parkinsons-disease/",
+        "class": "reachable"
+      },
+      {
+        "url": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1824316958234873&show_text=false&width=734",
+        "status": 200,
+        "final_url": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1824316958234873&show_text=false&width=734",
+        "class": "reachable"
+      },
+      {
+        "url": "https://www.facebook.com/watch/?v=1824316958234873",
+        "status": 200,
+        "final_url": "https://www.facebook.com/parkinsoncanada/videos/1824316958234873/",
+        "class": "reachable"
+      },
+      {
+        "url": "https://www.instagram.com/reel/DWuG1M5DmPn/",
+        "status": 200,
+        "final_url": "https://www.instagram.com/reel/DWuG1M5DmPn/",
+        "class": "reachable"
+      },
+      {
+        "url": "https://www.instagram.com/reel/DWuG1M5DmPn/embed",
+        "status": 200,
+        "final_url": "https://www.instagram.com/reel/DWuG1M5DmPn/embed",
+        "class": "reachable"
+      },
+      {
+        "url": "https://www.movementdisorders.org/Podcasts/Exploring-postural-control-in-functional-motor-disorders-using-virtual-reality.htm",
+        "status": 200,
+        "final_url": "https://www.movementdisorders.org/Podcasts/Exploring-postural-control-in-functional-motor-disorders-using-virtual-reality.htm",
+        "class": "reachable"
+      },
+      {
+        "url": "https://www.movementdisorders.org/Podcasts/Integrated-therapy-for-functional-movement-disorders.htm",
+        "status": 200,
+        "final_url": "https://www.movementdisorders.org/Podcasts/Integrated-therapy-for-functional-movement-disorders.htm",
+        "class": "reachable"
+      },
+      {
+        "url": "https://www.vjneurology.com/video/af8s0maefp8-managing-newly-diagnosed-functional-movement-disorder/",
+        "status": 200,
+        "final_url": "https://www.vjneurology.com/video/af8s0maefp8-managing-newly-diagnosed-functional-movement-disorder/",
+        "class": "reachable"
+      },
+      {
+        "url": "https://www.vjneurology.com/video/kulv-kv82ey-diagnosing-functional-movement-disorders/",
+        "status": 206,
+        "final_url": "https://www.vjneurology.com/video/kulv-kv82ey-diagnosing-functional-movement-disorders/",
+        "class": "reachable"
+      },
+      {
+        "url": "https://www.vjneurology.com/video/nquuhkuxtp0-optimizing-functional-movement-disorder-management-multidisciplinary-care-and-patient-education/",
+        "status": 200,
+        "final_url": "https://www.vjneurology.com/video/nquuhkuxtp0-optimizing-functional-movement-disorder-management-multidisciplinary-care-and-patient-education/",
+        "class": "reachable"
+      },
+      {
+        "url": "https://www.vjneurology.com/video/q5-cladfkew-holistic-approaches-to-fnd-treatment/",
+        "status": 200,
+        "final_url": "https://www.vjneurology.com/video/q5-cladfkew-holistic-approaches-to-fnd-treatment/",
+        "class": "reachable"
+      },
+      {
+        "url": "https://www.vjneurology.com/video/qpvrdem5tmi-advances-in-fnd-research-understanding-mechanisms-and-novel-treatment-paradigms/",
+        "status": 200,
+        "final_url": "https://www.vjneurology.com/video/qpvrdem5tmi-advances-in-fnd-research-understanding-mechanisms-and-novel-treatment-paradigms/",
+        "class": "reachable"
+      },
+      {
+        "url": "https://www.vjneurology.com/video/zgnh8cm_hhw-diagnosing-functional-movement-disorder/",
+        "status": 200,
+        "final_url": "https://www.vjneurology.com/video/zgnh8cm_hhw-diagnosing-functional-movement-disorder/",
+        "class": "reachable"
+      },
+      {
+        "url": "https://www.youtube-nocookie.com/embed/XtSNBqC1z18",
+        "status": 200,
+        "final_url": "https://www.youtube-nocookie.com/embed/XtSNBqC1z18",
+        "class": "reachable"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=1pESZmsg_VI",
+        "status": 200,
+        "final_url": "https://www.youtube.com/watch?v=1pESZmsg_VI",
+        "class": "reachable"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=BaRMiThlMYk",
+        "status": 200,
+        "final_url": "https://www.youtube.com/watch?v=BaRMiThlMYk",
+        "class": "reachable"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=G7t8KMGbwzA&t=56s",
+        "status": 200,
+        "final_url": "https://www.youtube.com/watch?v=G7t8KMGbwzA&t=56s",
+        "class": "reachable"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=XtSNBqC1z18",
+        "status": 200,
+        "final_url": "https://www.youtube.com/watch?v=XtSNBqC1z18",
+        "class": "reachable"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=vtS7faSFVrQ&t=65s",
+        "status": 200,
+        "final_url": "https://www.youtube.com/watch?v=vtS7faSFVrQ&t=65s",
+        "class": "reachable"
+      }
+    ],
+    "interpretation": "Only 404/410 are classified as confirmed missing. 403/429 are blocked or rate-limited; network errors are inconclusive.",
+    "confirmed_missing_visitor_links": [],
+    "non_visitor_source_only_404": [
+      "https://fonts.googleapis.com"
+    ],
+    "summary": "36 destinations returned 200/206; 21 returned 403 (blocked or rate-limited, not confirmed missing); one bare font preconnect origin returned 404 and is not visitor-facing. No visitor-facing URL was confirmed 404/410."
+  }
+}
