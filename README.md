@@ -40,13 +40,13 @@ The reference intentionally contains unfinished material:
 - Consulting: FAST PD Clinics, Care Finder, and Digital Hub descriptions.
 - Education: YouTube channel description, topics, and posting schedule.
 - Accessibility: approved monitored feedback route.
-- Speaking: final speaker one-sheet; the local HTML download remains a placeholder.
+- Speaking: the populated HTML speaker one-sheet from the old site is reused at `/downloads/speaker-one-sheet-placeholder.html`, pending a future updated sheet.
 - The source footer says content requires final approval before publication.
 
-These items are preserved for review. No professional descriptions, claims, or download assets were invented.
+The owner approved publishing these unfinished source sections as supplied on 2026-10-20 and updating them later. The owner also authorized reuse of the old speaker one-sheet. No professional descriptions, claims, or download assets were invented.
 
 The [asset and external-link audit](docs/asset-link-audit.md) records all supplied file hashes and 58 destination checks. No visitor link returned a confirmed 404/410; 21 destinations blocked automated requests. Facebook and Instagram embeds may be blocked, and the source's direct “Watch” links remain available.
 
 ## Replacing the live website
 
-The existing GitHub/Vercel connection is retained. Work is on branch `codex/sarah-design-replacement-20261020`. Nothing has been pushed or deployed by this build. After the replacement and remaining content are approved, publish through the existing repository workflow. The current live site can be recovered from the pre-replacement Git history.
+The existing GitHub/Vercel connection is retained. The owner authorized production publication on 2026-10-20 through the existing repository workflow, including the source placeholders and old speaker one-sheet. The pre-replacement site can be recovered from commit `a1ef46c` in Git history.

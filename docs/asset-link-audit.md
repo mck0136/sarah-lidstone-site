@@ -22,6 +22,6 @@ The full URL-by-URL status, redirect target, and error record is in [`content/de
 
 ## Local routes and placeholders
 
-The active app has home, About, Research, Speaking & Media, Integrated Care, Contact, Privacy, and Accessibility routes. The immutable design reference also links to Consulting, Creative, and Education pages; those exist in the reference set but were not active-app routes at audit time.
+The replacement app includes all 11 supplied routes, including Consulting, Creative, and Education alongside the existing pages.
 
-Speaking & Media links to `/downloads/speaker-one-sheet-placeholder.html`. The file is visibly labeled and named as a placeholder. It contains bio and speaking-topic copy, but it is not identified as an approved final download; keep the placeholder status visible until the owner approves it. The Research page also states that citation counts are omitted because no stable public source was available. Neither case was silently filled with invented claims or data.
+Speaking & Media links to `/downloads/speaker-one-sheet-placeholder.html`. Despite the legacy filename, this is the old site's populated, styled HTML one-sheet with biography, speaking topics, audiences, contact details, and a headshot. The replacement reuses the file unchanged; the owner explicitly approved this reuse on 2026-10-20 pending a future update. The owner also approved publication of the remaining source placeholders as supplied. The Research page states that citation counts are omitted because no stable public source was available.
