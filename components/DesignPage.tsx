@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useLayoutEffect, useRef, useState } from "react";
+import { memo, useCallback, useEffect, useLayoutEffect, useRef, useState } from "react";
 import "@/app/design.css";
 
 export type DesignPageRecord = {
@@ -135,14 +135,48 @@ function submitContactForm(event: Event, root: HTMLElement) {
   window.location.href = mailto;
 }
 
-export function DesignPage({ page }: { page: DesignPageRecord }) {
+const DesignSource = memo(function DesignSource({
+  html,
+  mobile,
+  className,
+  onReady
+}: {
+  html: string;
+  mobile: boolean;
+  className: string;
+  onReady: () => void;
+}) {
   const sourceRef = useRef<HTMLDivElement>(null);
+
+  useLayoutEffect(() => {
+    const root = sourceRef.current;
+    if (!root) return;
+
+    // This component owns the source DOM because mobile layout transforms it
+    // in place. Rebuild it only when its source or responsive mode changes.
+    root.innerHTML = html;
+    if (mobile) {
+      root.querySelector("header")?.remove();
+      transformSourceForMobile(root);
+    }
+
+    const handleSubmit = (event: Event) => submitContactForm(event, root);
+    root.addEventListener("submit", handleSubmit);
+    onReady();
+    return () => root.removeEventListener("submit", handleSubmit);
+  }, [html, mobile, onReady]);
+
+  return <div ref={sourceRef} className={className} dangerouslySetInnerHTML={{ __html: html }} />;
+});
+
+export function DesignPage({ page }: { page: DesignPageRecord }) {
   const menuButtonRef = useRef<HTMLButtonElement>(null);
   const closeButtonRef = useRef<HTMLButtonElement>(null);
   const [mobile, setMobile] = useState(false);
   const [ready, setReady] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
 
+  const markReady = useCallback(() => setReady(true), []);
   const closeMenu = useCallback(() => {
     setMenuOpen(false);
     requestAnimationFrame(() => menuButtonRef.current?.focus());
@@ -156,19 +190,8 @@ export function DesignPage({ page }: { page: DesignPageRecord }) {
     return () => media.removeEventListener("change", update);
   }, []);
 
-  useLayoutEffect(() => {
-    const root = sourceRef.current;
-    if (!root) return;
-    root.innerHTML = page.html;
-    if (mobile) {
-      root.querySelector("header")?.remove();
-      transformSourceForMobile(root);
-    }
-    const handleSubmit = (event: Event) => submitContactForm(event, root);
-    root.addEventListener("submit", handleSubmit);
-    setReady(true);
+  useEffect(() => {
     setMenuOpen(false);
-    return () => root.removeEventListener("submit", handleSubmit);
   }, [page.html, mobile]);
 
   useEffect(() => {
@@ -218,10 +241,10 @@ export function DesignPage({ page }: { page: DesignPageRecord }) {
               <span /><span /><span />
             </button>
           </header>
-          <div ref={sourceRef} className="design-source" dangerouslySetInnerHTML={{ __html: page.html }} />
+          <DesignSource html={page.html} mobile className="design-source" onReady={markReady} />
         </div>
       )}
-      {!mobile && <div ref={sourceRef} className="design-source design-source-desktop" dangerouslySetInnerHTML={{ __html: page.html }} />}
+      {!mobile && <DesignSource html={page.html} mobile={false} className="design-source design-source-desktop" onReady={markReady} />}
       {mobile && (
         <div id="design-mobile-menu" className="design-mobile-menu" aria-hidden={!menuOpen}>
           <div className="design-mobile-menu-close-row">

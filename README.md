@@ -36,6 +36,8 @@ Run the comparison again with `node scripts/verify-design.cjs` while both local 
 
 Later editorial comparisons apply the same approved content updates to the design reference before comparing it. Current results are written to `qa/editorial-20261020`; the original replacement evidence is retained separately.
 
+The mobile menu regression is covered by `node scripts/verify-menu.cjs` (`BASE_URL` selects the target site). Evidence in `qa/menu-fix-20261020` includes the reproduced production artifact and fixed screenshots. Closing or navigating from the menu must leave one mobile header, no source desktop header, and unchanged mobile typography and grids. The source markup now has a memoized owner so menu state cannot restore its original desktop HTML. The local regression used Chromium phone emulation; WebKit was unavailable.
+
 ## Editorial updates — 2026-10-20
 
 - Removed the Consulting page's Current Work section for FAST PD Clinics, Care Finder, and Digital Hub, retaining the Parkinson Canada introduction and advocacy videos.

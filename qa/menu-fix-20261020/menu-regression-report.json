@@ -1,0 +1,126 @@
+{
+  "baseUrl": "http://127.0.0.1:3005",
+  "startedAt": "2026-10-21T00:18:52.513Z",
+  "browser": "Chromium",
+  "mode": "390px touch emulation",
+  "routes": [
+    {
+      "browser": "Chromium",
+      "name": "Home",
+      "route": "/",
+      "passed": true
+    },
+    {
+      "browser": "Chromium",
+      "name": "About",
+      "route": "/about",
+      "passed": true
+    },
+    {
+      "browser": "Chromium",
+      "name": "Research",
+      "route": "/research",
+      "passed": true
+    },
+    {
+      "browser": "Chromium",
+      "name": "Speaking",
+      "route": "/speaking-media",
+      "passed": true
+    },
+    {
+      "browser": "Chromium",
+      "name": "Integrated Care",
+      "route": "/integrated-care",
+      "passed": true
+    },
+    {
+      "browser": "Chromium",
+      "name": "Consulting",
+      "route": "/consulting",
+      "passed": true
+    },
+    {
+      "browser": "Chromium",
+      "name": "Creative",
+      "route": "/creative",
+      "passed": true
+    },
+    {
+      "browser": "Chromium",
+      "name": "Contact",
+      "route": "/contact",
+      "passed": true
+    },
+    {
+      "browser": "Chromium",
+      "name": "Privacy",
+      "route": "/privacy",
+      "passed": true
+    },
+    {
+      "browser": "Chromium",
+      "name": "Accessibility",
+      "route": "/accessibility",
+      "passed": true
+    },
+    {
+      "browser": "Chromium",
+      "name": "Education",
+      "route": "/education",
+      "passed": true
+    }
+  ],
+  "interactionChecks": [
+    {
+      "browser": "Chromium",
+      "check": "Escape closes menu",
+      "passed": true
+    },
+    {
+      "browser": "Chromium",
+      "check": "same-page navigation closes menu",
+      "passed": true
+    },
+    {
+      "browser": "Chromium",
+      "check": "other-page navigation closes menu",
+      "passed": true
+    },
+    {
+      "browser": "Chromium",
+      "check": "five repeated open/close cycles",
+      "passed": true
+    },
+    {
+      "browser": "Chromium",
+      "check": "scroll preserved through height-only resize",
+      "passed": true,
+      "scrollTop": 360
+    }
+  ],
+  "desktop": {
+    "passed": true,
+    "width": 1440,
+    "mobileHeaderCount": 0,
+    "sourceHeaders": [
+      {
+        "width": 1440,
+        "height": 80.765625,
+        "display": "block",
+        "visibility": "visible"
+      }
+    ],
+    "sourceNavs": [
+      {
+        "width": 720.671875,
+        "height": 50.25,
+        "display": "flex",
+        "visibility": "visible"
+      }
+    ]
+  },
+  "webkit": "unavailable (browserType.launch: Executable doesn't exist at /Users/mark_mckendry/Library/Caches/ms-playwright/webkit-2336/pw_run.sh); Chromium touch emulation used",
+  "errors": [],
+  "finishedAt": "2026-10-21T00:18:55.011Z"
+}

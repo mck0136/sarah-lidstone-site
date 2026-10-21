@@ -1,0 +1,6 @@
+{
+  "responsiveModeSwitch": true,
+  "contactValidationAfterMenu": true,
+  "contactDraftAfterMenu": true,
+  "noMessageSent": true
+}
