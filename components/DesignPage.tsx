@@ -19,7 +19,6 @@ const navigation = [
   ["IntegratedCare", "Integrated Care"],
   ["Consulting", "Consulting"],
   ["Creative", "Creative"],
-  ["Education", "Education"],
   ["Contact", "Contact"]
 ] as const;
 
@@ -31,7 +30,6 @@ const pagePaths: Record<string, string> = {
   IntegratedCare: "/integrated-care",
   Consulting: "/consulting",
   Creative: "/creative",
-  Education: "/education",
   Contact: "/contact",
   Privacy: "/privacy",
   Accessibility: "/accessibility"

@@ -4,9 +4,10 @@ const path = require("node:path");
 const { chromium } = require(process.env.PLAYWRIGHT_MODULE || "/Users/mark_mckendry/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright");
 const { PNG } = require("/Users/mark_mckendry/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/pngjs");
 const data = require("../content/design-pages.json");
+const { transform: applyEditorialUpdates } = require("./editorial-updates.cjs");
 const base = process.env.SITE_URL || "http://127.0.0.1:3005";
 const reference = process.env.DESIGN_SOURCE_URL || "http://127.0.0.1:3100";
-const output = path.join(__dirname, "..", "qa", "replacement-20261020");
+const output = process.env.QA_OUTPUT_DIR || path.join(__dirname, "..", "qa", "editorial-20261020");
 
 async function ready(page, selector) {
   await page.locator(selector).first().waitFor();
@@ -22,7 +23,7 @@ async function main() {
   const browser = await chromium.launch({ headless: true, executablePath: process.env.CHROMIUM_PATH || "/Users/mark_mckendry/Library/Caches/ms-playwright/chromium_headless_shell-1243/chrome-headless-shell-mac-arm64/chrome-headless-shell" });
   const errors = [];
   const warnings = new Set();
-  const report = { checkedAt: new Date().toISOString(), base, pages: [], interactions: {}, localTargets: 0, failures: [], warnings: [] };
+  const report = { checkedAt: new Date().toISOString(), base, reference: "supplied design plus approved editorial updates", pages: [], interactions: {}, localTargets: 0, failures: [], warnings: [] };
   const localTargets = new Set();
   const desktop = await browser.newPage({ viewport: { width: 1440, height: 1000 } });
   const mobile = await browser.newPage({ viewport: { width: 390, height: 802 }, isMobile: true, hasTouch: true });
@@ -75,6 +76,17 @@ async function main() {
           await ref.locator("#mobile-loading").waitFor({ state: "hidden" });
           refRoot = ref.locator("#mobile-content");
         }
+        const renderedReference = await refRoot.evaluate(root => {
+          const clone = root.cloneNode(true);
+          clone.querySelectorAll("script, style").forEach(element => element.remove());
+          clone.querySelectorAll("*").forEach(element => {
+            for (const attr of [...element.attributes]) if (/^on/i.test(attr.name) || /^data-(?:dc|sc)-/i.test(attr.name)) element.removeAttribute(attr.name);
+          });
+          return clone.innerHTML;
+        });
+        const referenceHtml = renderedReference.replace(/href="(?:\.\/)?([A-Za-z]+)\.dc\.html"/g, (match, pageName) => data[pageName] ? `href="${data[pageName].slug}"` : match);
+        const updatedReference = applyEditorialUpdates({ ...data, [name]: { ...record, html: referenceHtml } });
+        await refRoot.evaluate((root, html) => { root.innerHTML = html; }, updatedReference[name].html);
         const refText = await refRoot.evaluate(root => root.textContent.replace(/\s+/g, " ").trim());
         details.sourceTextMatches = details.text === refText;
         delete details.text;

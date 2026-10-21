@@ -19,6 +19,7 @@ The production build prerenders every page. The replacement has no dependency on
 
 - `content/design-pages.json`: supplied content and rendered design markup for all 11 pages, with native route and local asset URLs.
 - `components/DesignPage.tsx` and `app/design.css`: desktop presentation, source mobile transformation, accessible mobile menu, and contact email draft handling.
+- `scripts/editorial-updates.cjs`: approved editorial changes applied after each source export, so rebuilding the content preserves the owner's updates.
 - `app/`: native routes, metadata, sitemap, redirects, and page-not-found recovery.
 - `public/`: supplied visuals plus the existing portrait/headshot files referenced by the source.
 - `scripts/export-design.cjs`: repeatable content export from the immutable reference served at a local URL.
@@ -33,12 +34,20 @@ The browser checks confirmed validation and a mailto draft only; no message was 
 
 Run the comparison again with `node scripts/verify-design.cjs` while both local servers are running. It requires the bundled browser/image comparison libraries or equivalent installed modules.
 
+Later editorial comparisons apply the same approved content updates to the design reference before comparing it. Current results are written to `qa/editorial-20261020`; the original replacement evidence is retained separately.
+
+## Editorial updates — 2026-10-20
+
+- Removed the Consulting page's Current Work section for FAST PD Clinics, Care Finder, and Digital Hub, retaining the Parkinson Canada introduction and advocacy videos.
+- Added the owner's neuroscience, theatre, and dramatic arts paragraph to Creative.
+- Removed Education from desktop/mobile navigation, footer links, and the sitemap. Its direct page remains available.
+- Added “This website is for educational purposes only.” to the Contact introduction.
+
 ## Supplied content still awaiting completion
 
 The reference intentionally contains unfinished material:
 
-- Consulting: FAST PD Clinics, Care Finder, and Digital Hub descriptions.
-- Education: YouTube channel description, topics, and posting schedule.
+- Education: YouTube channel description, topics, and posting schedule remain on its unlisted direct page.
 - Accessibility: approved monitored feedback route.
 - Speaking: the populated HTML speaker one-sheet from the old site is reused at `/downloads/speaker-one-sheet-placeholder.html`, pending a future updated sheet.
 - The source footer says content requires final approval before publication.

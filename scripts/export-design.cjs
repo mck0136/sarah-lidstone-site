@@ -3,6 +3,7 @@
 /* Export the rendered design-reference pages into the site's native content data. */
 const fs = require("node:fs");
 const path = require("node:path");
+const { transform } = require("./editorial-updates.cjs");
 
 const PAGE_NAMES = [
   "Home", "About", "Research", "Speaking", "IntegratedCare", "Consulting",
@@ -143,7 +144,8 @@ async function main() {
   }
   const destination = output || path.join(__dirname, "..", "content", "design-pages.json");
   fs.mkdirSync(path.dirname(destination), { recursive: true });
-  fs.writeFileSync(destination, `${JSON.stringify(pages, null, 2)}\n`);
+  const editorialPages = transform(pages);
+  fs.writeFileSync(destination, `${JSON.stringify(editorialPages, null, 2)}\n`);
   console.log(`Wrote ${Object.keys(pages).length} pages to ${destination}`);
   if (issues.length) {
     console.error("Review source issues:");

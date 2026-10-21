@@ -10,7 +10,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/integrated-care",
     "/consulting",
     "/creative",
-    "/education",
     "/contact",
     "/privacy",
     "/accessibility"
